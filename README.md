@@ -1,47 +1,52 @@
-## Overview
-The **Information Retrieval System** is designed to efficiently search, rank, and retrieve relevant documents based on user queries. This project implements key information retrieval techniques to improve search accuracy and performance.
+# Information Retrieval from Multiple PDF 💁💬 with PaLM2
 
-## Features
-- **Efficient Search Mechanism**: Supports keyword-based search using vector-based retrieval.
-- **Ranking Algorithm**: Implements scoring techniques to rank documents based on relevance.
-- **Preprocessing Pipeline**: Includes tokenization, stemming, and stop-word removal for optimized search.
-- **Web-Based Interface**: Provides a user-friendly UI for query input and result visualization.
-- **Scalability**: Can be extended with Elasticsearch or other indexing solutions for handling large datasets.
 
-## Technologies Used
-- **Programming Language**: Python
-- **Libraries**: Flask (for web interface), Scikit-learn, NLTK, Pandas
-- **Search Techniques**: TF-IDF, BM25, Word Embeddings (if applicable)
-- **Frameworks**: Flask (backend), Jupyter Notebooks (for research and trials)
+# How to run?
+### STEPS:
 
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Harsha2001-creater/Information-Retrieval-System.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd Information-Retrieval-System
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-4. Run the application:
-   ```bash
-   python app.py
-   ```
+Clone the repository
 
-## Usage
-- Enter a search query in the UI.
-- The system retrieves and ranks relevant documents.
-- Displays top results with relevance scores.
+```bash
+Project repo: https://github.com/
+```
+### STEP 01- Create a conda environment after opening the repository
 
-## Future Enhancements
-- **Integration with Elasticsearch** for better scalability.
-- **Support for multi-language queries** using transformers.
-- **Improved UI/UX** with interactive result filtering.
+```bash
+conda create -n llmapp python=3.8 -y
+```
 
-## License
-This project is licensed under the MIT License.
+```bash
+conda activate llmapp
+```
 
+
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
+
+### Create a `.env` file in the root directory and add your GOOGLE_API_KEY as follows:
+
+```ini
+GOOGLE_API_KEY= "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+```
+
+
+```bash
+# Finally run the following command
+streamlit run app.py
+```
+
+Now,
+```bash
+open up : http://localhost:8501
+```
+
+
+### Techstack Used:
+
+- Python
+- LangChain
+- Streamlit 
+- PaLM2
+- FAISS
