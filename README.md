@@ -1,5 +1,3 @@
-**# Information Retrieval System**
-
 ## Overview
 The **Information Retrieval System** is designed to efficiently search, rank, and retrieve relevant documents based on user queries. This project implements key information retrieval techniques to improve search accuracy and performance.
 
