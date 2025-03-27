@@ -4,7 +4,7 @@
 The **Information Retrieval System** is designed to efficiently search, rank, and retrieve relevant documents based on user queries. This project implements key information retrieval techniques to improve search accuracy and performance.
 
 ## Features
-- **Efficient Search Mechanism**: Supports keyword-based search using TF-IDF, BM25, or vector-based retrieval.
+- **Efficient Search Mechanism**: Supports keyword-based search using vector-based retrieval.
 - **Ranking Algorithm**: Implements scoring techniques to rank documents based on relevance.
 - **Preprocessing Pipeline**: Includes tokenization, stemming, and stop-word removal for optimized search.
 - **Web-Based Interface**: Provides a user-friendly UI for query input and result visualization.
@@ -19,7 +19,7 @@ The **Information Retrieval System** is designed to efficiently search, rank, an
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/Information-Retrieval-System.git
+   git clone https://github.com/Harsha2001-creater/Information-Retrieval-System.git
    ```
 2. Navigate to the project directory:
    ```bash
